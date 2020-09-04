@@ -55,11 +55,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         println!("{}: {}", item.id, item.value);
     }
 
-    // let result = format!(
-    //     "{:?} - {:?}, earnings: {:?}, revenue: {:?}, sales_growth: {:?}",
-    //     title, price, earnings, revenue, sales_growth
-    // );
-
     Ok(())
 }
 
